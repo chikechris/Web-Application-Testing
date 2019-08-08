@@ -1,9 +1,7 @@
 export const trackHit = (callBackStrike, callBackBall) => {
-  if (hit === 1) {
-    callBackStrike(0);
-    callBackBall(0);
-    return [callBackStrike(0), callBackBall(0)];
-  }
+  callBackStrike(0);
+  callBackBall(0);
+  return [callBackStrike(0), callBackBall(0)];
 };
 
 export const trackStrike = (strike, callBackStrike, callBackBall) => {
